@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdio.h>
+#include <pthread.h>
 
 void* hello(void* p) {
 	  printf("%s\n", p);
